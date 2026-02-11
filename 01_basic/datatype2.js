@@ -33,3 +33,22 @@ const myFunction = function(){
 }
 
 console.log(typeof UserId);
+
+// stack and heap
+
+let name ="meet";
+let name1 = name;
+name1 = "Parmar";
+console.log(name1);
+console.log(name);
+
+let obj1= {
+    Email: "meet@27",
+    pass: "123"
+}
+
+let userData = obj1;
+userData.Email = "meet@123";
+
+console.log(obj1.Email);
+console.log(userData.Email);
